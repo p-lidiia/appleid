@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__black"> 
+            <div class="header__black_inner">
+                <a href="javascript:void(0)">
+                    <img src="https://www.apple.com/ac/globalnav/7/ru_RU/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="Apple logo"> 
+                </a>
+                <div></div>
+            </div>
+
+        </div>
+        <div class="header__white">
+            <div class="header__white_inner">
+                <div class="header__white_text">Apple ID</div>
+                <div class="header__white_login">Sign In</div>
+            </div>
+
+        </div>
+    </header>
+    
+    <main>
+        <div class="main__logo">
+            <img class="logo_big" src="images/logo.png" alt="apple logo">
+        </div>
+        <div class="main__login_text">Use your Apple ID to sign in to ChatGPT</div>
+        <div>
+            <form action=" " id="form">
+                <input type="text" id="inputAppleID" placeholder=" " required="required">
+              <span class="fake_placeholder">AppleID</span>
+                <input type="text" name="" id="inputPassword">
+                <div class="button__submit"> </div>
+                <span class="fake_placeholder2">Password </span>
+            </form>
+        </div>
+        <div id="verification__code" style="display: none;">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+            <input type="text" class="verification-input" required="required" maxlength="1">
+        </div>
+
+        <div class="notification" id="notification">
+            Incorrect value: Please enter a valid Apple ID.
+        </div>
+
+        <div class="main__forgot"><a href="" class="main__forgot_link">Forgot Apple ID or password?</a> </div>
+        <div class="main__policyPic"><img class="policy_pic" src="images/privacy.png" alt=""></div>
+        <div class="main__info">In setting up Sign in with Apple, information about your interactions with Apple and this device may be used by Apple 
+            to help prevent fraud.  <a href="" class="main__info_link">See how your data is managed...</a></div>
+    </main>
+
+    <footer>
+        <div class="footer__copyright">
+           Copyright © 2023 Apple Inc. All rights reserved
+        </div>
+        <div class="footer__policy">
+            <div><a href="javascript:void(0)" class="footer__policy_link">Privacy policy</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
